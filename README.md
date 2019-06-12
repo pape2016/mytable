@@ -18,6 +18,7 @@ Please note that, before version 2.9.0(include 2.9.0), Element UI can display th
 
 I have modified the project and now it works.
 
+---
 
 reproduce el-table issue
 
