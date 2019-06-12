@@ -1,4 +1,24 @@
 # mytable
+
+**Lastest Update:**
+
+I found the reason why the table was not shown.
+I imported vue by js file as: 
+```Javascript
+<script src="js/standard/vue.js"></script>
+```
+it was ok, the components of element ui works, but now, it does not work for the table of element 2.9.1, it makes the table disappear.
+we must import vue by:
+```Javascript
+import Vue from 'vue'
+```
+Then, the table appears.
+
+Please note that, before version 2.9.0(include 2.9.0), Element UI can display the table when importing vue by js file, it only happens in version 2.9.1.
+
+I have modified the project and now it works.
+
+
 reproduce el-table issue
 
 # Install
