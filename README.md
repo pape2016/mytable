@@ -7,10 +7,12 @@ git clone https://github.com/pape2016/mytable.git
 
 ## 2. install dependency packages
 cd mytable
+
 npm install
 
 ## 3. change the output folder
 modify the output folder to any folder you want.
+
 the default folder is c:/project/mytable/dist
 
 ## 4. webpack
